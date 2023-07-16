@@ -7,6 +7,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: url(background.png) #FA7F72;
+    width: 100%;
+    height: 100%;
 }
 
 .promocao p{
@@ -18,4 +20,48 @@ body{
     font-size: 15px;
     text-align: center;
     color: #ffffff;
+}
+
+input, button{
+    width: 425px;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.formulario{
+    background: #ffffff;
+    width: 500px;
+    margin: 25px 0 0;
+    border-radius: 10px;
+    padding: 20px 0 40px 0;
+}
+
+input, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    margin: 20px 0 0 0;
+    border: 1px solid lightgray;
+}
+
+button{
+    background: hsl(154, 59%, 51%);
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.termos{
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.termos strong{
+    color: #FA7F72;
+}
+
+#erro_nome, #erro_sobrenome, #erro_email, #erro_senha{
+    display: none;
 }
