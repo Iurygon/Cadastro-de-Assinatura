@@ -11,6 +11,11 @@ body{
     height: 100%;
 }
 
+.conteiner{
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
 .promocao p{
     background-color: #5455bb;
     width: 500px;
