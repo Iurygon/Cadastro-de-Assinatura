@@ -16,6 +16,17 @@ body{
     flex-wrap: wrap;
 }
 
+.textos_esquerda h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.textos_esquerda{
+    font-size: 18px;
+    color: #ffffff;
+}
+
 .promocao p{
     background-color: #5455bb;
     width: 500px;
@@ -48,12 +59,10 @@ input, button{
 
 input{
     background: url(icon-error.svg) no-repeat 95%;
+    padding-left: 30px;
     margin: 20px 0 0 0;
     border: 1px solid lightgray;
-}
-
-input::placeholder{
-    padding-left: 30px;
+    font-size: 15px;
 }
 
 button{
