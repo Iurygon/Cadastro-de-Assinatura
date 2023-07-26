@@ -84,6 +84,7 @@ button{
 }
 
 #erro_nome, #erro_sobrenome, #erro_email, #erro_senha{
+    padding: 5px 25px 0 0;
     color: #ff5050;
     text-align: end;
     font-size: 13px;
