@@ -14,22 +14,29 @@ body{
 .conteiner{
     display: flexbox;
     flex-wrap: wrap;
+    justify-content: space-between;    
 }
 
 .textos_esquerda h1{
+    text-align: center;
     font-weight: bold;
     font-size: 40px;
     color: #ffffff;
 }
 
 .textos_esquerda{
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
     font-size: 18px;
     color: #ffffff;
 }
 
 .promocao p{
     background-color: #5455bb;
-    width: 500px;
+    min-width: 300px;
+    max-width: 500px;
     padding: 15px 0;
     border-radius: 10px;
     box-shadow: 0 10px 10px #7a7a7a;
@@ -40,7 +47,8 @@ body{
 
 .formulario{
     background: #ffffff;
-    width: 500px;
+    max-width: 500px;
+    min-width: 300px;
     margin: 25px 0 0;
     border-radius: 10px;
     padding: 20px 0 40px 0;
@@ -48,13 +56,10 @@ body{
 }
 
 input, button{
-    width: 425px;
+    font-family: 'Poppins', sans-serif;
+    min-width: 280px;
     padding: 15px 0;
     border-radius: 10px;
-}
-
-input, button{
-    font-family: 'Poppins', sans-serif;
 }
 
 input{
