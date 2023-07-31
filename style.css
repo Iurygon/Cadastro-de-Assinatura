@@ -12,7 +12,7 @@ body{
 }
 
 .conteiner{
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
 
