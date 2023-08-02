@@ -14,6 +14,7 @@ body{
 .conteiner{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .textos_esquerda h1{
@@ -24,8 +25,8 @@ body{
 }
 
 .textos_esquerda{
-
-    margin: auto;
+    width: 500px;
+    min-width: 350px;
     text-align: center;
     font-size: 18px;
     color: #ffffff;
@@ -33,7 +34,6 @@ body{
 
 .promocao p{
     background-color: #5455bb;
-
     padding: 15px 0;
     border-radius: 10px;
     box-shadow: 0 10px 10px #7a7a7a;
@@ -42,9 +42,13 @@ body{
     color: #ffffff;
 }
 
+.form_direita{
+    width: 500px;
+    min-width: 350px;
+}
+
 .formulario{
     background: #ffffff;
-
     margin: 25px 0 0;
     border-radius: 10px;
     padding: 20px 0 40px 0;
