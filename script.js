@@ -1,3 +1,4 @@
+//RECEBE OS VALORES DOS INPUTS//
 let campo_nome = document.getElementById('nome');
 let campo_nome_erro = document.getElementById('erro_nome');
 
@@ -10,35 +11,19 @@ let campo_email_erro = document.getElementById('erro_email');
 let campo_senha = document.getElementById('senha');
 let campo_senha_erro = document.getElementById('erro_senha');
 
-
+//VALIDAÇÃO DOS INPUTS//
 if (campo_nome.value == ''){
-
+    campo_nome_erro
 };
 
-if (campo_nome_erro.value == ''){
-
-}
-
 if (campo_sobrenome.value == ''){
-
-}
-
-if (campo_sobrenome_erro.value == ''){
-
+    campo_sobrenome_erro
 }
 
 if (campo_email.value == ''){
-
-}
-
-if (campo_email_erro.value == ''){
-
+    campo_email_erro
 }
 
 if (campo_senha.value == ''){
-
-}
-
-if (campo_senha_erro.value == ''){
-    
+    campo_email_erro
 }
