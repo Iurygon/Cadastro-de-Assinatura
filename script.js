@@ -13,17 +13,17 @@ let campo_senha_erro = document.getElementById('erro_senha');
 
 //VALIDAÇÃO DOS INPUTS//
 if (campo_nome.value == ''){
-    campo_nome_erro
+    campo_nome_erro.style
 };
 
 if (campo_sobrenome.value == ''){
-    campo_sobrenome_erro
+    campo_sobrenome_erro.style
 }
 
 if (campo_email.value == ''){
-    campo_email_erro
+    campo_email_erro.style
 }
 
 if (campo_senha.value == ''){
-    campo_email_erro
+    campo_email_erro.style
 }
