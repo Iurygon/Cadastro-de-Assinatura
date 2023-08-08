@@ -25,9 +25,11 @@ body{
 }
 
 .textos_esquerda{
+    display: inline;
     width: 500px;
     min-width: 350px;
     text-align: center;
+    margin: auto;
     font-size: 18px;
     color: #ffffff;
 }
