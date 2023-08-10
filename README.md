@@ -1,2 +1,2 @@
 # Cadastro-de-Assinatura
-Um formulário de cadastro para assinatura de um plano.
+Projeto que simula um formulário de cadastro para assinatura de um plano, recebendo os dados do usuário para preenchimento.
