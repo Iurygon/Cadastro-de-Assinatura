@@ -12,18 +12,18 @@ let campo_senha = document.getElementById('senha');
 let campo_senha_erro = document.getElementById('erro_senha');
 
 //VALIDAÇÃO DOS INPUTS//
-if (campo_nome.value == ''){
+if (campo_nome.value === ''){
     campo_nome_erro.style
 };
 
-if (campo_sobrenome.value == ''){
+if (campo_sobrenome.value === ''){
     campo_sobrenome_erro.style
 }
 
-if (campo_email.value == ''){
+if (campo_email.value === ''){
     campo_email_erro.style
 }
 
-if (campo_senha.value == ''){
+if (campo_senha.value === ''){
     campo_email_erro.style
 }
