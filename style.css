@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: url(background.png) #FA7F72;
+    background: url(background.png) rgb(250, 127, 114);
     width: 100%;
     height: 100%;
 }
@@ -45,7 +45,7 @@ body{
     background-color: #5455bb;
     padding: 15px 0;
     border-radius: 10px;
-    box-shadow: 0 10px 10px #7a7a7a;
+    box-shadow: 0 5px rgb(109, 66, 66, 0.5);
     font-size: 15px;
     text-align: center;
     color: #ffffff;
@@ -55,6 +55,7 @@ body{
     background: #ffffff;
     margin: 25px 0 0;
     border-radius: 10px;
+    box-shadow: 0 8px rgb(109, 66, 66, 0.3);
     padding: 20px 0 40px 0;
     text-align: center;
 }
@@ -75,11 +76,18 @@ input{
 }
 
 button{
-    background: hsl(154, 59%, 51%);
+    background: rgb(56, 204, 140);
     margin: 20px 0;
-    font-weight: bold;
+    box-shadow: 0 5px rgb(38, 150, 103);
     font-size: 20px;
     color: #ffffff;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(90, 247, 179);
+    box-shadow: 0 5px rgb(55, 153, 111);
+    transition: 0.5s;
 }
 
 .termos{
@@ -101,15 +109,19 @@ button{
 
 /*MEDIA QUERY*/
  
-/*
+@media (width <= 500px){
 
-.form_direita{
-    width: 300px;
-    margin: 20px 0 0 20px;
-}    
+    .textos_esquerda{
+        margin: 20px 0 20px;
+    }
+    
+    .form_direita{
+        width: 300px;
+        margin: 20px 0 20px 0;
+    }    
 
-button, input{
-    width: 270px;
+    button, input{
+        width: 270px;
+    }
+
 }
-
-*/
