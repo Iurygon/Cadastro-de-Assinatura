@@ -11,6 +11,8 @@ let campo_email_erro = document.getElementById('erro_email');
 let campo_senha = document.getElementById('senha');
 let campo_senha_erro = document.getElementById('erro_senha');
 
+let botao = document.getElementById('button');
+
 //VALIDAÇÃO DOS INPUTS//
 if (campo_nome.value === ''){
     campo_nome_erro.style
