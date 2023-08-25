@@ -17,13 +17,11 @@ form.addEventListener('submit', (event) =>{
 
 function invalido(index){
     inputs[index].style.border = '2px solid #fc1c1c';
-    inputs[index].style.backgroundImage = '';
     erro[index].style.display = 'block';
 }
 
 function valido(index){
     inputs[index].style.border = '';
-    inputs[index].style.background = 'none';
     erro[index].style.display = 'none';
 }
 
