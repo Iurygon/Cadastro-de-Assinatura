@@ -16,6 +16,6 @@ Deploy: <https://iurygon.github.io/Cadastro-de-Assinatura/>
 A maior dificuldade esteve justamente em fazer a validação do formulário com o JS, que ainda é muita novidade para mim. Porém, com o avanço dos novos projetos e estudos, estou ficando cada vez mais familiarizado com a linguagem e está se tornando algo mais natural para mim.
 
 ## Aprendizado
-* Uso de Media Querys.
+* Uso de Media Queries.
 * Maior familiaridade com Java Script.
 * Melhor entendimento do uso de funções e estruturas de decisão.
